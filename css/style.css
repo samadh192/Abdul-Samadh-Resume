@@ -1,21 +1,6 @@
-.top-container{
-  padding-top: 200px;
-  position: relative;
-  background-color: #222831;
-}
-
-.middle-container{
-  padding-top: 100px;
-  position: relative;
-  background-color: #393E46;
-}
-
-.top-cloud{
-  width: 20%;
-  height: 20%;
-  position: absolute;
-  right: 20%;
-  top: 100px;
+body{
+  margin: 0;
+  text-align: center;
 }
 
 .bottom-cloud{
@@ -25,13 +10,46 @@
   left: 10%;
 }
 
-.mountain{
-  width: 70%;
+.company-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
-body{
-  margin: 0;
-  text-align: center;
+.company-info{
+  margin-top: 0;
+}
+
+.experience-container{
+  padding-top: 100px;
+  position: relative;
+  background-color: #EEEEEE;
+}
+
+.experience-heading{
+  color: #00ADB5;
+}
+
+.experience-info{
+  color: #393E46;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 60%;
+  margin: auto;
+  text-align: left;
+}
+
+.experience-text{
+  text-align: justify;
+}
+
+.intro-container{
+  padding-top: 200px;
+  position: relative;
+  background-color: #222831;
 }
 
 .intro-h1{
@@ -48,34 +66,32 @@ body{
   color: #EEEEEE;
 }
 
-.experience-heading{
+.location{
+  margin-bottom: 0;
+}
+
+.mountain{
+  width: 70%;
+}
+
+.projects-container{
+  padding-top: 100px;
+  position: relative;
+  background-color: #393E46;
+}
+
+.projects-heading{
   color: #00ADB5;
 }
 
-.experience-info{
-  color: #EEEEEE;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  width: 50%;
-  margin: auto;
-  text-align: center;
+.tenure{
+  margin-bottom: 20px;
 }
 
-.company-img{
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
+.top-cloud{
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  right: 20%;
+  top: 100px;
 }
-
-.company-info{
-  margin-top: 50px;
-}
-
-.experience-text{
-  text-align: justify;
-}
-
-/* .carousel-item{
-  width: 300px;
-  height: 300px;
-} */
